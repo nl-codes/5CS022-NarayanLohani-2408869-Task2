@@ -11,8 +11,19 @@
                 height: 100vh;
                 background: linear-gradient(135deg, #3eb489, #2a9d8f);
                 display: flex;
+                flex-direction: column;
                 justify-content: center;
                 align-items: center;
+            }
+
+            .header {
+                position: fixed;
+                top: 100px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: white;
+                font-size: 60px;
+                font-weight: bold;
             }
 
             .container {
@@ -55,6 +66,9 @@
         </style>
     </head>
     <body>
+        <!-- Header -->
+        <div class="header">PAGE - 1</div>
+
         <div class="container">
             <a href="">
                 <div class="button">
